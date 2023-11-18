@@ -27,7 +27,7 @@ namespace Project_itec_103
             if (Username.Text.Trim() == username && Password.Text.Trim() == password)
             {
                 string MessageBoxTitle = "Login";
-                string MessageBoxContent = "Login Succesfully!";
+                string MessageBoxContent = "Logged in Succesfully!";
 
                 DialogResult dialogResult = MessageBox.Show(MessageBoxContent, MessageBoxTitle, MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
